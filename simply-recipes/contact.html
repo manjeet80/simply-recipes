@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+     <!-- favicon -->
+     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    
+     <!-- font-awesome -->
+     <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+     />
+     <!-- main css -->
+     <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+    <nav class="navbar">
+<div class="nav-center">
+
+<div class="nav-header">
+<a href="index.html" class="nav-logo">
+  <img src="./assets/logo.svg" alt="simply Recipes">
+</a>
+<button  type="button" class="btn nav-btn">
+<i class="fas fa-align-justify"></i> 
+</button>
+</div>
+<div class="nav-links">
+<a href="index.html"class="nav-link">Home</a>
+<a href="about.html"class="nav-link">About</a>
+<a href="tags.html"class="nav-link">Tags</a>
+<a href="recipes.html"class="nav-link">Recipes</a>
+<div class="nav-link contact-link">
+  <a href="contact.html" class="btn contact-btn">Contact</a>
+</div>
+</div>
+</div>
+</nav>
+
+<main  class="page ">
+  <section class="contact-container">
+    <article class="contact-info">
+      <h3>Want To Get In Touch?</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus velit pariatur vero voluptates tenetur perspiciatis, ea obcaecati sed nam officia.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur.</p>
+    </article>
+    <article class="form contact-form">
+      <div class="form-row">
+       
+        <label for="name" class="form-label" >your name</label>
+      <input type="text" name="name" id="name" class="form-input">
+      </div>
+      <div class="form-row">
+       
+        <label for="email" class="form-label">your email</label>
+      <input type="text" name="email" id="email" class="form-input">
+      </div>
+      <div class="form-row">
+        <label for="message" class="form-label">message</label>
+        <textarea name="message" id="message"class="form-textarea" ></textarea>
+      </div>
+      <button type="submit"class="btn btn-block">Submit</button>
+    </article>
+  </section>
+  <section class="featured-recipes">
+    <h5 class="featured-title">Look At this Awesomesource!</h5>
+    <div class="recipes-list">
+      <a href="single-recipe.html" class="recipe">
+        <img src="/assets/recipes/recipe-1.jpeg" alt="food"class='img recipe-img'>
+      <h5>Carena asada</h5>
+      <p>Prep : 15min | Cook :5min</p>
+      </a>
+      <a href="single-recipe.html" class="recipe">
+        <img src="/assets/recipes/recipe-2.jpeg" alt="food"class='img recipe-img'>
+      <h5>greek ribs</h5>
+      <p>Prep : 15min | Cook :5min</p>
+      </a>
+      <a href="single-recipe.html" class="recipe">
+        <img src="/assets/recipes/recipe-3.jpeg" alt="food"class='img recipe-img'>
+      <h5>vegetable soup</h5>
+      <p>Prep : 15min | Cook :5min</p>
+      </a>
+     
+    </div>
+  </section>
+</main>
+
+<footer class="page-footer">
+<p>
+  &copy; <span id="date"></span>
+  <span class="footer-logo">SimplyRecipes</span>
+Built by <a href="https://github.com/john-smilga/html-css-simply-recipes"> Website Code</a>
+</p>
+
+
+
+</footer>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
